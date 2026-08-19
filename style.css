@@ -2,9 +2,9 @@
 
 :root{
     --branco: rgb(0, 0, 0);
-    --cor-de-fundo: #ff0000;
-    --fundo-senha: #fd2020;
-    --fundo-texto: #ff0000;
+    --cor-de-fundo: #371399;
+    --fundo-senha: #0332cf;
+    --fundo-texto: #0099ff;
     --borda: #131212;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -116,7 +116,22 @@ label{
     cursor: pointer;
 
 }
-
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+    border: 1px solid var(--borda);
+}
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: #e71b32;
+    position:relative;
+    bottom: 30px;
+}
+.parametro-senha-textos{
+    display: flex
+}
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
